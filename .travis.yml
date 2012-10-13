@@ -1,3 +1,4 @@
+language: ruby
 before_script:
   - sudo apt-get install pandoc
 # here you can check os environment, it is ubuntu natty  
