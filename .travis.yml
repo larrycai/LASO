@@ -10,7 +10,3 @@ rvm:
 
 script: echo "do nothing"
 
-after_script:
-  - ls -al *.pdf
-
-
