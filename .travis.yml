@@ -15,7 +15,4 @@ script: ./mkbok
 after_script:
   - ls -al *.pdf
 
-branches:
-  only:
-    - gh-pages
 
