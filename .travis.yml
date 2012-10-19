@@ -22,7 +22,6 @@ after_script:
   - pdfv2=${pdfv1#*github.com/}
   - pdfname=${pdfv2%/*}_LASO.zh.pdf
   - echo $pdfv1 $pdfv2 $pdfname
-  - env
   - cp id_rsa_mkbok ~/.ssh/id_rsa
   - chmod 600 ~/.ssh/id_rsa
   - cat ~/.ssh/known_hosts
