@@ -10,6 +10,7 @@ before_script:
 
 rvm:
   - 1.9.3
+
 script: 
   - git checkout gh-pages
   - chmod +x mkbok 
